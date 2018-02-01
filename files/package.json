@@ -1,0 +1,21 @@
+{
+  "name": "expressejsdemo",
+  "version": "1.0.0",
+  "description": "a quick and dirty node/expressJS/sockets.io/mongodb demo",
+  "main": "server.js",
+  "scripts": {
+    "test": "jasmine",
+    "start": "node server.js"
+  },
+  "author": "Guy Barros",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^2.8.0",
+    "request": "^2.83.0"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^4.13.9",
+    "socket.io": "^2.0.4"
+  }
+}
